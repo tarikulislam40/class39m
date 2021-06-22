@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fixed{
+max-width: 1330px;
+margin: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+    text-align: center;
+}
+.clear::after{
+   content: "";
+   clear: both;
+   display: block;
+}
+img{
+    max-width: 100%;
+}
+body,h1,h2,h3,h4,h5,h6,span,a,p{
+    font-family: 'Open Sans', sans-serif;
+}
+/*start main css*/
+
+.header-scetion{
+    background: #12CBC4;
+    padding: 15px 0;
+}
+.header-left{
+    width: 30%;
+}
+.header-left a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+.header-left a h2{
+    font-weight: 400;
+}
+.header-right{
+    width: 70%;
+}
+.header-right ul{
+    list-style: none;
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 25px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.header-right ul li a:hover{}
+/*slider-scetion*/
+.slider-scetion{
+    background: url(./img/parachute-steering-head-mini.jpg) center center no-repeat;
+    padding: 220px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.slider-scetion::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(18, 203, 196, .5);
+    z-index: -1;
+}
+.slider-scetion h1 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+}
+.slider-scetion p {
+    color: #fff;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.slider-scetion a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+/*service-scetion*/
+.service-scetion{
+    padding: 60px 0;
+    border-bottom: 2px solid #12CBC4;
+}
+.service-item h1{
+    margin-bottom: 20px;
+}
+.service-box{
+    width: 24%;
+    margin-left: 1%;
+}
+.service-left{
+    margin-top: 80px;
+}
+.service-box span {
+    color: #12CBC4;
+    font-size: 35px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.service-box h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.service-box p {
+    color: #606060;
+}
+/* .service-box1{
+    width: 24%;
+} */
+
+/*about-scetion*/
+.about-scetion{
+    padding: 60px 0;
+}
+.about-img{
+    margin-top: 50px;
+}
+.about-left{
+    width: 48%;
+}
+.about-right{
+    width: 48%;
+}
+.about-right h3{
+    padding: 15px 0;
+}
+.about-right p{
+    color: #606060;
+    line-height: 1.5rem;
+}
+/*contact-scetion*/
+.contact-scetion{
+    padding: 60px 0;
+    background: rgb(240, 239, 239);
+}
+.contact-left{
+    width: 33%;
+}
+.contact-box{
+    margin-top: 50px;
+}
+.contact-left span{
+    color: #12CBC4;
+    margin-bottom: 10px;
+    display: inline-block;
+
+}
+/*footer-social*/
+.footer-top{
+    background: #12CBC4;
+    padding: 15px 0;
+}
+.footer-social{}
+.footer-social ul{
+    text-align: center;
+}
+.footer-social ul li{
+    display: inline-block;
+}
+.footer-social ul li a{
+    color: #fff;
+    padding: 0 10px;
+}
+.footer{
+    background: rgb(36, 35, 35);
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.footer p{
+    color: grey;
+}
